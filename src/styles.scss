@@ -1,5 +1,10 @@
-@import './assets/styles/reset';
+@import './EffyCommonNpm/src/styles/media';
+@import './EffyCommonNpm/src/styles/palette';
+@import './EffyCommonNpm/src/styles/typography';
+@import './EffyCommonNpm/src/styles/layout';
+@import './EffyCommonNpm/src/styles/icons';
+@import './EffyCommonNpm/src/styles/buttons';
+
 @import './assets/styles/grayscale';
-@import './assets/styles/buttons';
+@import './assets/styles/base';
 @import './assets/styles/header';
-@import './assets/styles/mediaqueries';
