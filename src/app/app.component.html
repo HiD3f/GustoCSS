@@ -1,29 +1,71 @@
 <app-header [ngClass]="'header'"></app-header>
 
+<div class="main-content">
 
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-primary'" [btnText]="'.effy-btn .cta-primary'"></app-button>
+    <div class="demo-block">
+        <h1 class="demo-block-title">CTA Primary</h1>
+        <div class="demo-block-content h-mb-32">
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-primary'" [btnText]="'.effy-btn .cta-primary'"></app-button>
 
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-primary with-icon'" [btnText]="'.effy-btn .cta-primary .with-icon'"></app-button>
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-primary with-icon'" [btnText]="'.effy-btn .cta-primary .with-icon'"></app-button>
+            
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-primary disabled'" [btnText]="'effy-btn .cta-primary disabled'"></app-button>        
+        </div>
+    </div>
 
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-primary disabled'" [btnText]="'effy-btn .cta-primary disabled'"></app-button>
+    <div class="demo-block">
+        <h1 class="demo-block-title">CTA Secondary</h1>
+        <div class="demo-block-content h-mb-32">
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-secondary'" [btnText]="'.effy-btn .cta-secondary'"></app-button>
+
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-secondary with-icon'" [btnText]="'.effy-btn .cta-secondary .with-icon'"></app-button>
+
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-secondary disabled'" [btnText]="'.effy-btn .cta-secondary disabled'"></app-button>
+        </div>
+    </div>
 
 
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-secondary'" [btnText]="'.effy-btn .cta-secondary'"></app-button>
+    <div class="demo-block">
+        <h1 class="demo-block-title">Tag Primary</h1>
+        <div class="demo-block-content h-mb-32">
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-primary'" [btnText]="'.effy-btn .tag-primary'"></app-button>
 
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-secondary with-icon'" [btnText]="'.effy-btn .cta-secondary .with-icon'"></app-button>
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-primary with-icon'" [btnText]="'.effy-btn .tag-primary.with-icon'"></app-button>
 
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'cta-secondary disabled'" [btnText]="'.effy-btn .cta-secondary disabled'"></app-button>
-
-
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-contained'" [btnText]="'.effy-btn .tag-outlined'"></app-button>
-
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-contained with-icon'" [btnText]="'.effy-btn .tag-outlined.with-icon'"></app-button>
-
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-contained disabled'" [btnText]="'.effy-btn .tag-outlined disabled'"></app-button>
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-primary disabled'" [btnText]="'.effy-btn .tag-primary disabled'"></app-button>
+        </div>
+    </div>
 
 
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-outlined'" [btnText]="'.effy-btn .tag-outlined'"></app-button>
+    <div class="demo-block">
+        <h1 class="demo-block-title">Tag Secondary</h1>
+        <div class="demo-block-content h-mb-32">
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-secondary'" [btnText]="'.effy-btn .tag-secondary'"></app-button>
 
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-outlined with-icon'" [btnText]="'.effy-btn .tag-outlined .with-icon'"></app-button>
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-secondary with-icon'" [btnText]="'.effy-btn .tag-secondary .with-icon'"></app-button>
 
-<app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-outlined disabled'" [btnText]="'.effy-btn .tag-outlined disabled'"></app-button>
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'tag-secondary disabled'" [btnText]="'.effy-btn .tag-secondary disabled'"></app-button>
+        </div>
+    </div>
+
+    <div class="demo-block">
+        <h1 class="demo-block-title">Text</h1>
+        <div class="demo-block-content h-mb-32">
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'text-btn'" [btnText]="'.effy-btn .tag-secondary'"></app-button>
+
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'text-btn with-icon'" [btnText]="'.effy-btn .tag-secondary .with-icon'"></app-button>
+
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'text-btn disabled'" [btnText]="'.effy-btn .tag-secondary disabled'"></app-button>
+        </div>
+    </div>
+
+    <div class="demo-block">
+        <h1 class="demo-block-title">Text / Return</h1>
+        <div class="demo-block-content h-mb-32">
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'text-btn return-btn'" [btnText]="'.effy-btn .text-btn'"></app-button>
+
+            <app-button ngClass="effy-btn-container h-third-width h-align-content-center" [btnClass]="'text-btn return-btn disabled'" [btnText]="'.effy-btn .text-btn disabled'"></app-button>
+        </div>
+    </div>
+
+</div>
