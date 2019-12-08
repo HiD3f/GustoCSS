@@ -1,7 +1,7 @@
 <button [ngClass]="'effy-btn ' + btnClass">
     <div class="effy-btn-content">
-        <i class="effy-btn-content-icon"></i>
-        <span class="effy-btn-content-text">{{btnText}}</span>
+        <i [ngClass]="'effy-btn-content-icon ' + btnIcon"></i>
+        <span class="effy-btn-content-text">{{btnLabel}}</span>
     </div>
 </button>
 
