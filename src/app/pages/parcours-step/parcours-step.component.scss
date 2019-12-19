@@ -1,0 +1,26 @@
+
+:host{
+    background: #f1f1f1;
+    flex: 1 0 auto;
+}
+
+.step{
+    padding: 16px;
+
+    .step-eligibilite-confirmation {
+        max-width: 780px;
+        background: white;
+        padding: 16px;
+        text-align: center;
+        margin: 0 auto;
+        color: #003250;
+    }
+
+    .eligibilite-title{
+        font-size: 20px;
+        font-family: 'gilroy-bold';
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+
