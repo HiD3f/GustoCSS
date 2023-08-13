@@ -1,3 +1,0 @@
-[submodule "src/EffyCommonNpm"]
-	path = src/EffyCommonNpm
-	url = git@github.com:effy-tech/effy_common_npm.git
