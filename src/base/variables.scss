@@ -1,0 +1,19 @@
+/* Base properties : Typography */
+:root {
+    /* font sizes */
+    --text-small: 0.75rem; /* 9px */
+    --text-base: 1rem; /* 12px */
+    --text-medium: 1.25rem; /* 15px */
+    --text-large: 1.5rem; /* 29px */
+
+    /* font weights */
+    --font-thin: 100;
+    --font-extra-light: 200;
+    --font-light: 300;
+    --font-semi-light: 400;
+    --font-regular: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+    --font-extra-bold: 800;
+    --font-black: 900;
+}

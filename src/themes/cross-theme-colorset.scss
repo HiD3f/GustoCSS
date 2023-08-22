@@ -1,0 +1,93 @@
+/* --UNVARIABLE CROSS-THEME COLORS-- */
+
+/* 06 - Shadow color */
+:root {
+    --ShadowColor: #71000000;
+}
+
+/* 07 - Internal colors */
+:root {
+    --CloseHoverColor: #d23f3f;
+    --CloseActiveColor: #993d3d;
+}
+
+/* 08 - Main colors */
+:root {
+    --MainSubLevel1Color: #298ccb; /*2*/
+    --MainColor: #2ea2ec; /*3*/
+    --MainUpLevel1Color: #34b0ff; /*4*/
+}
+
+/* 09 - Basic colors */
+:root {
+    --BasicRedColor: #f23b6a;
+    --BasicOrangeColor: #ed7e0b;
+    --BasicYellowColor: #fed22a;
+    --BasicGreenColor: #6cde34;
+    --BasicBlueColor: #4a90e2;
+    --BasicPurpleColor: #d64ef2;
+    --BasicBlackColor: #000000;
+    --BasicWhiteColor: #ffffff;
+}
+
+/* 10 - Series colors */
+:root {
+    --Series01SubLevel1Color: #d00d3f;
+    --Series01Color: #f11d54;
+    --Series02SubLevel1Color: #02276c;
+    --Series02Color: #033aa0;
+    --Series03SubLevel1Color: #dda94a;
+    --Series03Color: #ffcc70;
+    --Series04SubLevel1Color: #076549;
+    --Series04Color: #0a946b;
+    --Series05SubLevel1Color: #630455;
+    --Series05Color: #93067e;
+    --Series06SubLevel1Color: #d25e34;
+    --Series06Color: #ef7448;
+    --Series07SubLevel1Color: #17112d;
+    --Series07Color: #20183f;
+    --Series08SubLevel1Color: #97bf60;
+    --Series08Color: #aecd83;
+    --Series09SubLevel1Color: #8d2752;
+    --Series09Color: #b43269;
+    --Series10SubLevel1Color: #13ab76;
+    --Series10Color: #18d895;
+    --Series11SubLevel1Color: #044a4f;
+    --Series11Color: #06767e;
+    --Series12SubLevel1Color: #222440;
+    --Series12Color: #333661;
+}
+
+/* 11 - Diverging colors */
+:root {
+    --Diverging01Color: #313695;
+    --Diverging02Color: #4575b4;
+    --Diverging03Color: #74add1;
+    --Diverging04Color: #abd9e9;
+    --Diverging05Color: #e0f3f8;
+    --Diverging06Color: #ffffbf;
+    --Diverging07Color: #fee090;
+    --Diverging08Color: #fdae61;
+    --Diverging09Color: #f46d43;
+    --Diverging10Color: #d73027;
+    --Diverging11Color: #a50026;
+}
+
+/* 12 - Sequential colors */
+:root {
+    --Sequential01Color: #ffffd9;
+    --Sequential02Color: #edf8b1;
+    --Sequential03Color: #c7e9b4;
+    --Sequential04Color: #7fcdbb;
+    --Sequential05Color: #41b6c4;
+    --Sequential06Color: #1d91c0;
+    --Sequential07Color: #225ea8;
+    --Sequential08Color: #253494;
+    --Sequential09Color: #081d58;
+}
+
+/* 13 - High Contrast colors */
+:root {
+    --HightContrastLightColor: #cccccc;
+    --HightContrastDarkColor: #000000;
+}

@@ -1,0 +1,77 @@
+/* --THEME SPECIFIC COLORS-- */
+
+[data-ui-theme='light'] {
+    /* 01 - Background colors */
+    --backgroundSubLevel3Color: #ffffff;
+    --backgroundSubLevel2Color: #f7fafa;
+    --backgroundSubLevel1Color: #eceeee;
+    --backgroundColor: #e6e8e8;
+    --backgroundUpLevel1Color: #d2d4d4;
+    --backgroundUpLevel2Color: #f2f4f4;
+
+    /* 02 - Foreground colors */
+    --foregroundSubLevel3Color: #fdfefe;
+    --foregroundSubLevel2Color: #a8becc;
+    --foregroundSubLevel1Color: #7c878f;
+    --foregroundColor: #344550;
+    --foregroundUpLevel1Color: #293841;
+
+    /* 03 - Qualitative colors */
+    --qualitative01Color: #cc6677;
+    --qualitative02Color: #332288;
+    --qualitative03Color: #ddcc77;
+    --qualitative04Color: #117733;
+    --qualitative05Color: #88ccee;
+    --qualitative06Color: #882255;
+    --qualitative07Color: #44aa99;
+    --qualitative08Color: #999933;
+    --qualitative09Color: #aa4499;
+    --qualitative10Color: #dddddd;
+
+    /* 04 - Status colors */
+    --statusConfigSubLevel1Color: #5e6e79;
+    --statusConfigColor: #7c878f;
+    --statusConfigUpLevel1Color: #717b82;
+    --statusSuccessSubLevel1Color: #218838;
+    --statusSuccessColor: #009900;
+    --statusSuccessUpLevel1Color: #008200;
+    --statusInfoSubLevel1Color: #005c97;
+    --statusInfoColor: #007acc;
+    --statusInfoUpLevel1Color: #0069b0;
+    --statusWarningSubLevel1Color: #c17600;
+    --statusWarningColor: #f79905;
+    --statusWarningUpLevel1Color: #db8702;
+    --statusDangerSubLevel1Color: #b50606;
+    --statusDangerColor: #e51111;
+    --statusDangerUpLevel1Color: #c91010;
+
+    /* 05 - Priority colors */
+    --priorityPrimarySubLevel1Color: #298ccb;
+    --priorityPrimaryColor: #2ea2ec;
+    --priorityPrimaryUpLevel1Color: #2c97dc;
+    --prioritySecondarySubLevel1Color: #b8babc;
+    --prioritySecondaryColor: #dcdcdc;
+    --prioritySecondaryUpLevel1Color: #c4c4c4;
+    --priorityTertiarySubLevel1Color: #e2e3e4;
+    --priorityTertiaryColor: #f6f6f6;
+    --priorityTertiaryUpLevel1Color: #eceeee;
+
+
+
+    /* 1st level theming : Storybook */
+    --sb-bg-color: var(--backgroundSubLevel2Color);
+
+    /* 2nd level theming : Components */
+    --input-bg-color: var(--backgroundSubLevel3Color);
+    --input-height: 24px;
+    --input-font-size: var(--text-base);
+    --input-placeholder-color: var(--foregroundSubLevel1Color);
+    --input-text-color: var(--foregroundColor);
+    --input-border-radius: 3px;
+    --input-border-color: var(--backgroundUpLevel1Color);
+    --input-y-padding: 4px;
+    --input-x-padding: 6px;
+    --input-font-weight: var(--font-regular);
+    --input-outline-color: var(--MainColor);
+    --input-notvalid-border-color: var(--statusDangerColor);
+}
